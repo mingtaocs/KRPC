@@ -15,6 +15,27 @@
 
 - **Glog日志库**：后续增加了Glog的日志库，进行异步的日志记录。
 
+
+## 编译指令
+
+第一步：进入到Krpc文件
+cd Krpc
+
+第二步：生成项目可执行程序
+./autobuild.sh
+
+
+第三步：进入到bin文件夹下,分别运行./server和./client，即可完成服务发布和调用。（在运行前应打开zookeeper服务）
+
+- 进入bin文件:
+cd bin
+- server:
+./server -i ./test.conf
+
+- client:
+./client -i ./test.conf
+
+
 ## 总结
 - Krpc是一个基于protobuf的C++分布式网络通信框架，旨在简化微服务的部署与调用。
 - 通过结合Muduo库、Zookeeper和Glog，Krpc提供了高效的网络通信、服务注册与发现以及日志记录功能。
