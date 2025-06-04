@@ -14,5 +14,3 @@ cmake .. \
 
 # 3. 编译并安装
 make -j"${NPROC}"
-
-echo "安装完成！文件已输出到: ${INSTALL_DIR}"
