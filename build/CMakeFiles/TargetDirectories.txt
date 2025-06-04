@@ -1,0 +1,13 @@
+/home/fmt/Desktop/KRPC/build/CMakeFiles/edit_cache.dir
+/home/fmt/Desktop/KRPC/build/CMakeFiles/rebuild_cache.dir
+/home/fmt/Desktop/KRPC/build/src/CMakeFiles/krpc_core.dir
+/home/fmt/Desktop/KRPC/build/src/CMakeFiles/edit_cache.dir
+/home/fmt/Desktop/KRPC/build/src/CMakeFiles/rebuild_cache.dir
+/home/fmt/Desktop/KRPC/build/example/CMakeFiles/edit_cache.dir
+/home/fmt/Desktop/KRPC/build/example/CMakeFiles/rebuild_cache.dir
+/home/fmt/Desktop/KRPC/build/example/callee/CMakeFiles/server.dir
+/home/fmt/Desktop/KRPC/build/example/callee/CMakeFiles/edit_cache.dir
+/home/fmt/Desktop/KRPC/build/example/callee/CMakeFiles/rebuild_cache.dir
+/home/fmt/Desktop/KRPC/build/example/caller/CMakeFiles/client.dir
+/home/fmt/Desktop/KRPC/build/example/caller/CMakeFiles/edit_cache.dir
+/home/fmt/Desktop/KRPC/build/example/caller/CMakeFiles/rebuild_cache.dir
