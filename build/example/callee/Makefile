@@ -154,29 +154,29 @@ Kservice.cc.s:
 	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/Kservice.cc.s
 .PHONY : Kservice.cc.s
 
-__/user.pb.o: __/user.pb.cc.o
-.PHONY : __/user.pb.o
+__/generated/user.pb.o: __/generated/user.pb.cc.o
+.PHONY : __/generated/user.pb.o
 
 # target to build an object file
-__/user.pb.cc.o:
-	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/__/user.pb.cc.o
-.PHONY : __/user.pb.cc.o
+__/generated/user.pb.cc.o:
+	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/__/generated/user.pb.cc.o
+.PHONY : __/generated/user.pb.cc.o
 
-__/user.pb.i: __/user.pb.cc.i
-.PHONY : __/user.pb.i
+__/generated/user.pb.i: __/generated/user.pb.cc.i
+.PHONY : __/generated/user.pb.i
 
 # target to preprocess a source file
-__/user.pb.cc.i:
-	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/__/user.pb.cc.i
-.PHONY : __/user.pb.cc.i
+__/generated/user.pb.cc.i:
+	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/__/generated/user.pb.cc.i
+.PHONY : __/generated/user.pb.cc.i
 
-__/user.pb.s: __/user.pb.cc.s
-.PHONY : __/user.pb.s
+__/generated/user.pb.s: __/generated/user.pb.cc.s
+.PHONY : __/generated/user.pb.s
 
 # target to generate assembly for a file
-__/user.pb.cc.s:
-	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/__/user.pb.cc.s
-.PHONY : __/user.pb.cc.s
+__/generated/user.pb.cc.s:
+	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/__/generated/user.pb.cc.s
+.PHONY : __/generated/user.pb.cc.s
 
 # Help Target
 help:
@@ -190,9 +190,9 @@ help:
 	@echo "... Kservice.o"
 	@echo "... Kservice.i"
 	@echo "... Kservice.s"
-	@echo "... __/user.pb.o"
-	@echo "... __/user.pb.i"
-	@echo "... __/user.pb.s"
+	@echo "... __/generated/user.pb.o"
+	@echo "... __/generated/user.pb.i"
+	@echo "... __/generated/user.pb.s"
 .PHONY : help
 
 

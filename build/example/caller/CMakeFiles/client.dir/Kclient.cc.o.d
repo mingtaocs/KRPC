@@ -263,7 +263,7 @@ example/caller/CMakeFiles/client.dir/Kclient.cc.o: \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/fmt/Desktop/KRPC/example/caller/../user.pb.h \
+ /home/fmt/Desktop/KRPC/example/generated/user.pb.h \
  /usr/include/google/protobuf/io/coded_stream.h \
  /usr/include/c++/11/atomic /usr/include/c++/11/climits \
  /usr/include/c++/11/cstring /usr/include/google/protobuf/stubs/logging.h \

@@ -83,30 +83,30 @@ example/callee/CMakeFiles/server.dir/Kservice.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/Kservice.cc.s"
 	cd /home/fmt/Desktop/KRPC/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmt/Desktop/KRPC/example/callee/Kservice.cc -o CMakeFiles/server.dir/Kservice.cc.s
 
-example/callee/CMakeFiles/server.dir/__/user.pb.cc.o: example/callee/CMakeFiles/server.dir/flags.make
-example/callee/CMakeFiles/server.dir/__/user.pb.cc.o: ../example/user.pb.cc
-example/callee/CMakeFiles/server.dir/__/user.pb.cc.o: example/callee/CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmt/Desktop/KRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/callee/CMakeFiles/server.dir/__/user.pb.cc.o"
-	cd /home/fmt/Desktop/KRPC/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/callee/CMakeFiles/server.dir/__/user.pb.cc.o -MF CMakeFiles/server.dir/__/user.pb.cc.o.d -o CMakeFiles/server.dir/__/user.pb.cc.o -c /home/fmt/Desktop/KRPC/example/user.pb.cc
+example/callee/CMakeFiles/server.dir/__/generated/user.pb.cc.o: example/callee/CMakeFiles/server.dir/flags.make
+example/callee/CMakeFiles/server.dir/__/generated/user.pb.cc.o: ../example/generated/user.pb.cc
+example/callee/CMakeFiles/server.dir/__/generated/user.pb.cc.o: example/callee/CMakeFiles/server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmt/Desktop/KRPC/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/callee/CMakeFiles/server.dir/__/generated/user.pb.cc.o"
+	cd /home/fmt/Desktop/KRPC/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/callee/CMakeFiles/server.dir/__/generated/user.pb.cc.o -MF CMakeFiles/server.dir/__/generated/user.pb.cc.o.d -o CMakeFiles/server.dir/__/generated/user.pb.cc.o -c /home/fmt/Desktop/KRPC/example/generated/user.pb.cc
 
-example/callee/CMakeFiles/server.dir/__/user.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/__/user.pb.cc.i"
-	cd /home/fmt/Desktop/KRPC/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmt/Desktop/KRPC/example/user.pb.cc > CMakeFiles/server.dir/__/user.pb.cc.i
+example/callee/CMakeFiles/server.dir/__/generated/user.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/__/generated/user.pb.cc.i"
+	cd /home/fmt/Desktop/KRPC/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmt/Desktop/KRPC/example/generated/user.pb.cc > CMakeFiles/server.dir/__/generated/user.pb.cc.i
 
-example/callee/CMakeFiles/server.dir/__/user.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/__/user.pb.cc.s"
-	cd /home/fmt/Desktop/KRPC/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmt/Desktop/KRPC/example/user.pb.cc -o CMakeFiles/server.dir/__/user.pb.cc.s
+example/callee/CMakeFiles/server.dir/__/generated/user.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/__/generated/user.pb.cc.s"
+	cd /home/fmt/Desktop/KRPC/build/example/callee && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmt/Desktop/KRPC/example/generated/user.pb.cc -o CMakeFiles/server.dir/__/generated/user.pb.cc.s
 
 # Object files for target server
 server_OBJECTS = \
 "CMakeFiles/server.dir/Kservice.cc.o" \
-"CMakeFiles/server.dir/__/user.pb.cc.o"
+"CMakeFiles/server.dir/__/generated/user.pb.cc.o"
 
 # External object files for target server
 server_EXTERNAL_OBJECTS =
 
 ../bin/server: example/callee/CMakeFiles/server.dir/Kservice.cc.o
-../bin/server: example/callee/CMakeFiles/server.dir/__/user.pb.cc.o
+../bin/server: example/callee/CMakeFiles/server.dir/__/generated/user.pb.cc.o
 ../bin/server: example/callee/CMakeFiles/server.dir/build.make
 ../bin/server: ../lib/libkrpc_core.a
 ../bin/server: example/callee/CMakeFiles/server.dir/link.txt

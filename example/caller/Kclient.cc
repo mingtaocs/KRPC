@@ -1,5 +1,5 @@
 #include "Krpcapplication.h"
-#include "../user.pb.h"
+#include "user.pb.h"
 #include "Krpccontroller.h"
 #include <iostream>
 #include <atomic>

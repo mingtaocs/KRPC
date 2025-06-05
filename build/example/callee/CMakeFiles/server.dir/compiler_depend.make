@@ -178,7 +178,7 @@ example/callee/CMakeFiles/server.dir/Kservice.cc.o: ../example/callee/Kservice.c
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  ../example/user.pb.h \
+  ../example/generated/user.pb.h \
   /usr/include/c++/11/limits \
   /usr/include/google/protobuf/port_def.inc \
   /usr/include/google/protobuf/port_undef.inc \
@@ -440,9 +440,9 @@ example/callee/CMakeFiles/server.dir/Kservice.cc.o: ../example/callee/Kservice.c
   /usr/local/include/muduo/base/CurrentThread.h \
   /usr/local/include/muduo/net/TimerId.h
 
-example/callee/CMakeFiles/server.dir/__/user.pb.cc.o: ../example/user.pb.cc \
+example/callee/CMakeFiles/server.dir/__/generated/user.pb.cc.o: ../example/generated/user.pb.cc \
   /usr/include/stdc-predef.h \
-  ../example/user.pb.h \
+  ../example/generated/user.pb.h \
   /usr/include/c++/11/limits \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -781,6 +781,8 @@ example/callee/CMakeFiles/server.dir/__/user.pb.cc.o: ../example/user.pb.cc \
 
 /usr/include/google/protobuf/wire_format.h:
 
+../example/generated/user.pb.cc:
+
 /usr/local/include/muduo/net/TimerId.h:
 
 /usr/local/include/muduo/base/CurrentThread.h:
@@ -872,8 +874,6 @@ example/callee/CMakeFiles/server.dir/__/user.pb.cc.o: ../example/user.pb.cc \
 /usr/include/x86_64-linux-gnu/asm/posix_types.h:
 
 /usr/include/linux/posix_types.h:
-
-../example/user.pb.cc:
 
 /usr/include/x86_64-linux-gnu/bits/sockaddr.h:
 
@@ -1509,7 +1509,7 @@ example/callee/CMakeFiles/server.dir/__/user.pb.cc.o: ../example/user.pb.cc \
 
 /usr/include/c++/11/bits/istream.tcc:
 
-../example/user.pb.h:
+../example/generated/user.pb.h:
 
 /usr/include/c++/11/limits:
 

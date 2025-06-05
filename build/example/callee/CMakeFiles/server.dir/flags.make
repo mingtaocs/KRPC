@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/fmt/Desktop/KRPC/src/include
+CXX_INCLUDES = -I/home/fmt/Desktop/KRPC/example/generated -I/home/fmt/Desktop/KRPC/src/include
 
 CXX_FLAGS = -g -std=c++11 -Wall -std=gnu++11
 

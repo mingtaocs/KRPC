@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/fmt/Desktop/KRPC/example/caller/Kclient.cc" "example/caller/CMakeFiles/client.dir/Kclient.cc.o" "gcc" "example/caller/CMakeFiles/client.dir/Kclient.cc.o.d"
-  "/home/fmt/Desktop/KRPC/example/user.pb.cc" "example/caller/CMakeFiles/client.dir/__/user.pb.cc.o" "gcc" "example/caller/CMakeFiles/client.dir/__/user.pb.cc.o.d"
+  "/home/fmt/Desktop/KRPC/example/generated/user.pb.cc" "example/caller/CMakeFiles/client.dir/__/generated/user.pb.cc.o" "gcc" "example/caller/CMakeFiles/client.dir/__/generated/user.pb.cc.o.d"
   )
 
 # Targets to which this target links.

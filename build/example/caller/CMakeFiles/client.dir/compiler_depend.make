@@ -319,7 +319,7 @@ example/caller/CMakeFiles/client.dir/Kclient.cc.o: ../example/caller/Kclient.cc 
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
-  ../example/user.pb.h \
+  ../example/generated/user.pb.h \
   /usr/include/google/protobuf/io/coded_stream.h \
   /usr/include/c++/11/atomic \
   /usr/include/c++/11/climits \
@@ -380,9 +380,9 @@ example/caller/CMakeFiles/client.dir/Kclient.cc.o: ../example/caller/Kclient.cc 
   /usr/include/glog/log_severity.h \
   /usr/include/glog/vlog_is_on.h
 
-example/caller/CMakeFiles/client.dir/__/user.pb.cc.o: ../example/user.pb.cc \
+example/caller/CMakeFiles/client.dir/__/generated/user.pb.cc.o: ../example/generated/user.pb.cc \
   /usr/include/stdc-predef.h \
-  ../example/user.pb.h \
+  ../example/generated/user.pb.h \
   /usr/include/c++/11/limits \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -721,6 +721,8 @@ example/caller/CMakeFiles/client.dir/__/user.pb.cc.o: ../example/user.pb.cc \
 
 /usr/include/google/protobuf/wire_format.h:
 
+../example/generated/user.pb.cc:
+
 /usr/include/glog/log_severity.h:
 
 /usr/include/gflags/gflags.h:
@@ -787,7 +789,7 @@ example/caller/CMakeFiles/client.dir/__/user.pb.cc.o: ../example/user.pb.cc \
 
 /usr/include/c++/11/atomic:
 
-../example/user.pb.h:
+../example/generated/user.pb.h:
 
 /usr/include/c++/11/bits/std_mutex.h:
 
@@ -816,8 +818,6 @@ example/caller/CMakeFiles/client.dir/__/user.pb.cc.o: ../example/user.pb.cc \
 /usr/include/x86_64-linux-gnu/asm/posix_types.h:
 
 /usr/include/linux/posix_types.h:
-
-../example/user.pb.cc:
 
 /usr/include/x86_64-linux-gnu/bits/sockaddr.h:
 

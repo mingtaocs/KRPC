@@ -179,7 +179,7 @@ example/callee/CMakeFiles/server.dir/Kservice.cc.o
  /usr/include/c++/11/bits/ostream.tcc
  /usr/include/c++/11/istream
  /usr/include/c++/11/bits/istream.tcc
- /home/fmt/Desktop/KRPC/example/user.pb.h
+ /home/fmt/Desktop/KRPC/example/generated/user.pb.h
  /usr/include/c++/11/limits
  /usr/include/google/protobuf/port_def.inc
  /usr/include/google/protobuf/port_undef.inc
@@ -441,10 +441,10 @@ example/callee/CMakeFiles/server.dir/Kservice.cc.o
  /usr/local/include/muduo/base/CurrentThread.h
  /usr/local/include/muduo/net/TimerId.h
 
-example/callee/CMakeFiles/server.dir/__/user.pb.cc.o
- /home/fmt/Desktop/KRPC/example/user.pb.cc
+example/callee/CMakeFiles/server.dir/__/generated/user.pb.cc.o
+ /home/fmt/Desktop/KRPC/example/generated/user.pb.cc
  /usr/include/stdc-predef.h
- /home/fmt/Desktop/KRPC/example/user.pb.h
+ /home/fmt/Desktop/KRPC/example/generated/user.pb.h
  /usr/include/c++/11/limits
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h

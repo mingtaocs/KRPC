@@ -144,7 +144,7 @@ example/callee/CMakeFiles/server.dir/Kservice.cc.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/fmt/Desktop/KRPC/example/callee/../user.pb.h \
+ /home/fmt/Desktop/KRPC/example/generated/user.pb.h \
  /usr/include/c++/11/limits /usr/include/google/protobuf/port_def.inc \
  /usr/include/google/protobuf/port_undef.inc \
  /usr/include/google/protobuf/io/coded_stream.h /usr/include/assert.h \

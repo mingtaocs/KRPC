@@ -2,7 +2,8 @@
 file(GLOB Client_SRCS ${CMAKE_CURRENT_SOURCE_DIR}/*.cc)
 
 #获取protobuf生成的.cc
-file(GLOB PROTO_SRCS ${CMAKE_CURRENT_SOURCE_DIR}/../*.pb.cc)
+#file(GLOB PROTO_SRCS ${CMAKE_CURRENT_SOURCE_DIR}/../generated/*.pb.cc)
+file(GLOB PROTO_SRCS ${CMAKE_CURRENT_SOURCE_DIR}/../generated/user.pb.cc)
 
 #创建服务端可执行文件
 add_executable(client ${Client_SRCS} ${PROTO_SRCS})
