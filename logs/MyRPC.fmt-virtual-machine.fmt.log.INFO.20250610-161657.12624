@@ -1,0 +1,28 @@
+Log file created at: 2025/06/10 16:16:57
+Running on machine: fmt-virtual-machine
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0610 16:16:57.992750 12630 zookeeperutil.cc:57] zookeeper_init success
+I0610 16:16:57.992941 12631 zookeeperutil.cc:57] zookeeper_init success
+I0610 16:16:57.992950 12634 zookeeperutil.cc:57] zookeeper_init success
+I0610 16:16:57.993006 12628 zookeeperutil.cc:57] zookeeper_init success
+I0610 16:16:57.993163 12625 zookeeperutil.cc:57] zookeeper_init success
+I0610 16:16:57.993202 12632 zookeeperutil.cc:57] zookeeper_init success
+I0610 16:16:57.993247 12626 zookeeperutil.cc:57] zookeeper_init success
+I0610 16:16:57.993271 12633 zookeeperutil.cc:57] zookeeper_init success
+I0610 16:16:57.993314 12629 zookeeperutil.cc:57] zookeeper_init success
+I0610 16:16:57.993332 12627 zookeeperutil.cc:57] zookeeper_init success
+I0610 16:16:58.004673 12630 Krpcchannel.cc:48] connect server success
+I0610 16:16:58.006935 12631 Krpcchannel.cc:48] connect server success
+I0610 16:16:58.007570 12634 Krpcchannel.cc:48] connect server success
+I0610 16:16:58.007951 12628 Krpcchannel.cc:48] connect server success
+I0610 16:16:58.008613 12625 Krpcchannel.cc:48] connect server success
+I0610 16:16:58.009378 12632 Krpcchannel.cc:48] connect server success
+I0610 16:16:58.009604 12626 Krpcchannel.cc:48] connect server success
+I0610 16:16:58.010075 12633 Krpcchannel.cc:48] connect server success
+I0610 16:16:58.011072 12629 Krpcchannel.cc:48] connect server success
+I0610 16:16:58.011788 12627 Krpcchannel.cc:48] connect server success
+I0610 16:16:58.012449 12624 Kfriendclient.cc:80] Total requests: 10
+I0610 16:16:58.012454 12624 Kfriendclient.cc:81] Success count: 10
+I0610 16:16:58.012456 12624 Kfriendclient.cc:82] Fail count: 0
+I0610 16:16:58.012457 12624 Kfriendclient.cc:83] Elapsed time: 0.0236841 seconds
+I0610 16:16:58.012475 12624 Kfriendclient.cc:84] QPS: 422.224
