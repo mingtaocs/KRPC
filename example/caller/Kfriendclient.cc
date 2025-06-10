@@ -48,7 +48,7 @@ int main(int argc, char **argv) {
     KrpcApplication::Init(argc, argv);
 
     // 创建日志对象
-    KrpcLogger logger("MyRPC");
+    KrpcLogger logger("KRPC");
 
     const int thread_count = 10;       // 并发线程数
     const int requests_per_thread = 1; // 每个线程发送的请求数

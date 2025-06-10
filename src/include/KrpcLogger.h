@@ -11,8 +11,10 @@ public:
     {
         google::InitGoogleLogging(argv0);
         FLAGS_colorlogtostderr = true;  // 启用彩色日志（控制台）
-        FLAGS_logtostderr = true;       // 禁用默认输出到stderr
-        //FLAGS_log_dir = "./logs";      // 日志保存到./logs目录
+        FLAGS_logtostderr = false;       // 禁用默认输出到stderr
+        FLAGS_log_dir = "../logs";      // 日志保存到./logs目录
+        
+       FLAGS_minloglevel = 0; //设置日志级别，INFO	0	普通信息（默认级别）WARNING	1	警告信息，表明潜在问题 ERROR	2	错误信息，需要关注但程序可能继续运行 FATAL	3	致命错误，程序会终止并生成核心转储文件
     }
       ~KrpcLogger(){
         google::ShutdownGoogleLogging();
