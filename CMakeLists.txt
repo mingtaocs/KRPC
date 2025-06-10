@@ -1,4 +1,4 @@
-#设置最低版本和项目名称
+#设置版本和项目名称
 cmake_minimum_required(VERSION 3.0)
 project(Krpc)
 

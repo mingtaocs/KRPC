@@ -1,11 +1,13 @@
 #获取服务端的源文件
 #file(GLOB Client_SRCS ${CMAKE_CURRENT_SOURCE_DIR}/*.cc)
 #file(GLOB Client_SRCS ${CMAKE_CURRENT_SOURCE_DIR}/Kclient.cc)
+
 file(GLOB Client_SRCS ${CMAKE_CURRENT_SOURCE_DIR}/Kfriendclient.cc)
 
 #获取protobuf生成的.cc
 #file(GLOB PROTO_SRCS ${CMAKE_CURRENT_SOURCE_DIR}/../generated/*.pb.cc)
 #file(GLOB PROTO_SRCS ${CMAKE_CURRENT_SOURCE_DIR}/../generated/user.pb.cc)
+
 file(GLOB PROTO_SRCS ${CMAKE_CURRENT_SOURCE_DIR}/../generated/friend.pb.cc)
 
 #创建服务端可执行文件
