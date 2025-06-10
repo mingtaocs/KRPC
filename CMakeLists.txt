@@ -10,7 +10,7 @@ set(PROTO_GEN_DIR ${PROJECT_SOURCE_DIR}/example/generated)
 file(MAKE_DIRECTORY ${PROTO_GEN_DIR})
 include_directories(${PROTO_GEN_DIR})
 
-#查找porotbuf包
+#查找porotbuf库
 find_package(Protobuf REQUIRED)
 include_directories(${Protobuf_INCLUDE_DIRS})#Protobuf_INCLUDE_DIRS表示protobuf头文件目录
 
