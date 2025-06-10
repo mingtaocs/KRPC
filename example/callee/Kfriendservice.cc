@@ -28,8 +28,9 @@ public:
         response->mutable_result()->set_errmsg("");
         for (std::string &name : friendsList)
         {
-            std::string *p = response->add_friends();
-            *p = name;
+            // std::string *p = response->add_friends();
+            // *p = name;
+            response->add_friends(name);
         }
         done->Run();
     }
