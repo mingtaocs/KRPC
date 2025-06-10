@@ -130,53 +130,53 @@ server/fast:
 	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/build
 .PHONY : server/fast
 
-Kservice.o: Kservice.cc.o
-.PHONY : Kservice.o
+Kfriendservice.o: Kfriendservice.cc.o
+.PHONY : Kfriendservice.o
 
 # target to build an object file
-Kservice.cc.o:
-	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/Kservice.cc.o
-.PHONY : Kservice.cc.o
+Kfriendservice.cc.o:
+	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/Kfriendservice.cc.o
+.PHONY : Kfriendservice.cc.o
 
-Kservice.i: Kservice.cc.i
-.PHONY : Kservice.i
+Kfriendservice.i: Kfriendservice.cc.i
+.PHONY : Kfriendservice.i
 
 # target to preprocess a source file
-Kservice.cc.i:
-	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/Kservice.cc.i
-.PHONY : Kservice.cc.i
+Kfriendservice.cc.i:
+	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/Kfriendservice.cc.i
+.PHONY : Kfriendservice.cc.i
 
-Kservice.s: Kservice.cc.s
-.PHONY : Kservice.s
+Kfriendservice.s: Kfriendservice.cc.s
+.PHONY : Kfriendservice.s
 
 # target to generate assembly for a file
-Kservice.cc.s:
-	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/Kservice.cc.s
-.PHONY : Kservice.cc.s
+Kfriendservice.cc.s:
+	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/Kfriendservice.cc.s
+.PHONY : Kfriendservice.cc.s
 
-__/generated/user.pb.o: __/generated/user.pb.cc.o
-.PHONY : __/generated/user.pb.o
+__/generated/friend.pb.o: __/generated/friend.pb.cc.o
+.PHONY : __/generated/friend.pb.o
 
 # target to build an object file
-__/generated/user.pb.cc.o:
-	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/__/generated/user.pb.cc.o
-.PHONY : __/generated/user.pb.cc.o
+__/generated/friend.pb.cc.o:
+	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/__/generated/friend.pb.cc.o
+.PHONY : __/generated/friend.pb.cc.o
 
-__/generated/user.pb.i: __/generated/user.pb.cc.i
-.PHONY : __/generated/user.pb.i
+__/generated/friend.pb.i: __/generated/friend.pb.cc.i
+.PHONY : __/generated/friend.pb.i
 
 # target to preprocess a source file
-__/generated/user.pb.cc.i:
-	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/__/generated/user.pb.cc.i
-.PHONY : __/generated/user.pb.cc.i
+__/generated/friend.pb.cc.i:
+	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/__/generated/friend.pb.cc.i
+.PHONY : __/generated/friend.pb.cc.i
 
-__/generated/user.pb.s: __/generated/user.pb.cc.s
-.PHONY : __/generated/user.pb.s
+__/generated/friend.pb.s: __/generated/friend.pb.cc.s
+.PHONY : __/generated/friend.pb.s
 
 # target to generate assembly for a file
-__/generated/user.pb.cc.s:
-	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/__/generated/user.pb.cc.s
-.PHONY : __/generated/user.pb.cc.s
+__/generated/friend.pb.cc.s:
+	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/callee/CMakeFiles/server.dir/build.make example/callee/CMakeFiles/server.dir/__/generated/friend.pb.cc.s
+.PHONY : __/generated/friend.pb.cc.s
 
 # Help Target
 help:
@@ -187,12 +187,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... server"
-	@echo "... Kservice.o"
-	@echo "... Kservice.i"
-	@echo "... Kservice.s"
-	@echo "... __/generated/user.pb.o"
-	@echo "... __/generated/user.pb.i"
-	@echo "... __/generated/user.pb.s"
+	@echo "... Kfriendservice.o"
+	@echo "... Kfriendservice.i"
+	@echo "... Kfriendservice.s"
+	@echo "... __/generated/friend.pb.o"
+	@echo "... __/generated/friend.pb.i"
+	@echo "... __/generated/friend.pb.s"
 .PHONY : help
 
 

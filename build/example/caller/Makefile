@@ -130,53 +130,53 @@ client/fast:
 	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/caller/CMakeFiles/client.dir/build.make example/caller/CMakeFiles/client.dir/build
 .PHONY : client/fast
 
-Kclient.o: Kclient.cc.o
-.PHONY : Kclient.o
+Kfriendclient.o: Kfriendclient.cc.o
+.PHONY : Kfriendclient.o
 
 # target to build an object file
-Kclient.cc.o:
-	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/caller/CMakeFiles/client.dir/build.make example/caller/CMakeFiles/client.dir/Kclient.cc.o
-.PHONY : Kclient.cc.o
+Kfriendclient.cc.o:
+	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/caller/CMakeFiles/client.dir/build.make example/caller/CMakeFiles/client.dir/Kfriendclient.cc.o
+.PHONY : Kfriendclient.cc.o
 
-Kclient.i: Kclient.cc.i
-.PHONY : Kclient.i
+Kfriendclient.i: Kfriendclient.cc.i
+.PHONY : Kfriendclient.i
 
 # target to preprocess a source file
-Kclient.cc.i:
-	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/caller/CMakeFiles/client.dir/build.make example/caller/CMakeFiles/client.dir/Kclient.cc.i
-.PHONY : Kclient.cc.i
+Kfriendclient.cc.i:
+	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/caller/CMakeFiles/client.dir/build.make example/caller/CMakeFiles/client.dir/Kfriendclient.cc.i
+.PHONY : Kfriendclient.cc.i
 
-Kclient.s: Kclient.cc.s
-.PHONY : Kclient.s
+Kfriendclient.s: Kfriendclient.cc.s
+.PHONY : Kfriendclient.s
 
 # target to generate assembly for a file
-Kclient.cc.s:
-	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/caller/CMakeFiles/client.dir/build.make example/caller/CMakeFiles/client.dir/Kclient.cc.s
-.PHONY : Kclient.cc.s
+Kfriendclient.cc.s:
+	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/caller/CMakeFiles/client.dir/build.make example/caller/CMakeFiles/client.dir/Kfriendclient.cc.s
+.PHONY : Kfriendclient.cc.s
 
-__/generated/user.pb.o: __/generated/user.pb.cc.o
-.PHONY : __/generated/user.pb.o
+__/generated/friend.pb.o: __/generated/friend.pb.cc.o
+.PHONY : __/generated/friend.pb.o
 
 # target to build an object file
-__/generated/user.pb.cc.o:
-	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/caller/CMakeFiles/client.dir/build.make example/caller/CMakeFiles/client.dir/__/generated/user.pb.cc.o
-.PHONY : __/generated/user.pb.cc.o
+__/generated/friend.pb.cc.o:
+	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/caller/CMakeFiles/client.dir/build.make example/caller/CMakeFiles/client.dir/__/generated/friend.pb.cc.o
+.PHONY : __/generated/friend.pb.cc.o
 
-__/generated/user.pb.i: __/generated/user.pb.cc.i
-.PHONY : __/generated/user.pb.i
+__/generated/friend.pb.i: __/generated/friend.pb.cc.i
+.PHONY : __/generated/friend.pb.i
 
 # target to preprocess a source file
-__/generated/user.pb.cc.i:
-	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/caller/CMakeFiles/client.dir/build.make example/caller/CMakeFiles/client.dir/__/generated/user.pb.cc.i
-.PHONY : __/generated/user.pb.cc.i
+__/generated/friend.pb.cc.i:
+	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/caller/CMakeFiles/client.dir/build.make example/caller/CMakeFiles/client.dir/__/generated/friend.pb.cc.i
+.PHONY : __/generated/friend.pb.cc.i
 
-__/generated/user.pb.s: __/generated/user.pb.cc.s
-.PHONY : __/generated/user.pb.s
+__/generated/friend.pb.s: __/generated/friend.pb.cc.s
+.PHONY : __/generated/friend.pb.s
 
 # target to generate assembly for a file
-__/generated/user.pb.cc.s:
-	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/caller/CMakeFiles/client.dir/build.make example/caller/CMakeFiles/client.dir/__/generated/user.pb.cc.s
-.PHONY : __/generated/user.pb.cc.s
+__/generated/friend.pb.cc.s:
+	cd /home/fmt/Desktop/KRPC/build && $(MAKE) $(MAKESILENT) -f example/caller/CMakeFiles/client.dir/build.make example/caller/CMakeFiles/client.dir/__/generated/friend.pb.cc.s
+.PHONY : __/generated/friend.pb.cc.s
 
 # Help Target
 help:
@@ -187,12 +187,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... client"
-	@echo "... Kclient.o"
-	@echo "... Kclient.i"
-	@echo "... Kclient.s"
-	@echo "... __/generated/user.pb.o"
-	@echo "... __/generated/user.pb.i"
-	@echo "... __/generated/user.pb.s"
+	@echo "... Kfriendclient.o"
+	@echo "... Kfriendclient.i"
+	@echo "... Kfriendclient.s"
+	@echo "... __/generated/friend.pb.o"
+	@echo "... __/generated/friend.pb.i"
+	@echo "... __/generated/friend.pb.s"
 .PHONY : help
 
 
