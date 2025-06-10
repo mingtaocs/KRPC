@@ -12,5 +12,5 @@ cmake .. \
     -DCMAKE_INSTALL_PREFIX="../${INSTALL_DIR}" \
     -DCMAKE_BUILD_TYPE=Release
 
-# 3. 编译并安装
+# 3. 编译
 make -j"${NPROC}"
